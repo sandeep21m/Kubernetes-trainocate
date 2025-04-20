@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mypo-1
+  labels:
+    name: myapp
+spec:
+  containers:
+  - name: myapp
+    image: busybox
